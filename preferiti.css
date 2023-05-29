@@ -1,0 +1,72 @@
+
+body {
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+h1 {
+margin-bottom: 20px;
+color:whitesmoke;
+}
+
+.preferiti-container {
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.preferiti-item {
+width: 200px;
+margin: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
+.preferiti-item img {
+width: 100%;
+height: auto;
+}
+
+.preferiti-item-name {
+font-weight: bold;
+margin-bottom: 5px;
+}
+#container_head{
+    display:flex;
+    background-color: teal;
+    overflow: hidden;
+    justify-content:space-between;
+}
+
+#container_head a {
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.main {
+    padding: 15px;
+    font-family: Arial, Helvetica;
+
+}
+body{
+        margin-top: 20px;
+    background-color: lightgray;
+}
+
+.topbar {
+    background-color: teal;
+    overflow: hidden;
+}
+#nascondi_id{
+    display:none;
+}
+
+#elimina_mess{
+background-color:whitesmoke;
+}

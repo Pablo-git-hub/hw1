@@ -1,0 +1,308 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+#container_form{
+
+  display:flex;
+  justify-content:  center;
+  align-items: center;
+}
+    .container_home{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom:50px;
+    }
+
+    p {
+      color: white;
+      line-height: 1.5;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+#containe_hover{
+  display:flex;
+  justify-content:flex-end;
+}
+  .etic_vert  {
+
+    margin-right:-15px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  
+}
+
+
+
+    .menu {
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 250px;
+      height: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      transition: left 0.3s ease;
+    }
+
+    .menu:hover {
+      left: 0px;
+    }
+
+
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu #primo{
+    margin-top:-50px;
+    margin-bottom:-50px;
+      
+    }
+    .menu #secondo{
+    margin-top:-30px;
+    
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+#container-botton{
+display: flex;
+justify-content:flex-end;
+align-items: center;
+
+    }
+
+#bott_sig{
+  width: 10%;
+  border-radius: 4px;
+  border: 3px solid #ffffff;
+  background-color: #333;
+  padding: 15px;
+  text-decoration: none;
+  margin-left:5px ;
+  margin-right:5px ;
+}
+#bott_login{
+  width: 10%;
+  border-radius: 4px;
+  border: 3px solid lightgreen;
+  background-color: lightseagreen;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#bott_logout{
+  width: 10%;
+  border-radius: 4px;
+  border: 3px solid #ffffff;
+  background-color: #333;
+  padding: 15px;
+  text-decoration: none;
+  margin-left:5px ;
+  margin-right:5px ;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 40px; 
+}
+
+/*json*/
+span{
+    display: block;
+  }
+  #griglia {
+    position: absolute;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+body{
+  margin:0px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+#griglia  li {
+
+border: 2px solid #333333;
+display: inline-block;
+width: 19%;
+height: 19%;
+margin: 20px;
+background-color: #abe2ff;
+}
+#album {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*position: absolute;*/
+background: #e3e3e3;
+max-width:1920px;
+
+text-align: center;
+}
+
+span{
+  position: absolute;
+  margin-top: 20px;
+  opacity:0;
+}
+
+.errore_span {
+  opacity:1;
+  color:red;
+}
+
+#mess_err{
+  width: 100%;
+  height: -30%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#griglia{
+  margin-top: 20px;
+
+}
+.img_json{
+  display: none;
+}
+
+/*#err{
+  position: absolute;
+  margin-top: 20px;
+  opacity:0;
+}*/
+
+h2{
+  color:lightseagreen;
+}
+.etichetta{
+  color:black;
+  opacity: 1;
+  margin: 0;
+  width: 100%;
+  position: relative;
+
+}
+
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+
+
+.modale-stile{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.div-elem
+{
+    z-index:2;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-elem img {
+  width:50%;
+  height:50%;
+  max-width: 50%
+  max-height: 50%;
+
+}
+
+
+
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.botton_close{
+  border:2px solid white;
+  width:100%;
+  text-align:center;
+  background-color:lightseagreen;
+  color:white;
+ 
+}
+
+  .close-bott{
+    width:5%;
+    height:5%;
+    margin-top:-21%;
+    margin-right:-5%;
+    z-index:1;
+    font-size:20px;
+
+  }
+
+.pref-bott{
+ width:5%;
+    height:5%;
+    margin-top:-17%;
+    margin-right:-5%;
+    z-index:1;
+    font-size:20px; 
+  
+}
+
+
+
+
+  .btn_pref{
+  border:2px solid white;
+  width:100%;
+  text-align:center;
+  background-color:lightseagreen;
+  color:white;
+    }
+.stile_testo{
+    
+}

@@ -1,0 +1,65 @@
+h3{
+	margin-top:15px;
+	font-size:50px;
+	margin-bottom:15px;
+	font-family: 'Pangolin', 'Trebuchet MS', cursive;
+}
+body {
+	margin-top: 20px;
+	background-color: lightgray;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main {
+	padding: 15px;
+	font-family: Arial, Helvetica;
+}
+
+.topbar {
+	background-color: teal;
+	overflow: hidden;
+}
+
+.topbar a {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px 26px;
+	text-decoration: none;
+	font-size: 26px;
+}
+
+.sidebar {
+	background-color: #333;
+	color: white;
+	height: 100%;
+	padding: 10px;
+}
+
+.sidebar a {
+	margin-left: 10px;
+	display: block;
+	color: white;
+	padding-bottom: 10px;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+	background-color: whitesmoke;
+	padding: 15px;
+}
+
+
